@@ -18,15 +18,12 @@ import com.api.blog.service.exception.BlogNotFoundException;
 import com.api.blog.service.model.Blog;
 import com.api.blog.service.repository.BlogRepository;
 
-import lombok.RequiredArgsConstructor;
-
 /**
  * @author Administrator
  *
  */
 
 @Service
-@RequiredArgsConstructor
 public class BlogService {
 
     private final BlogRepository blogRepository;

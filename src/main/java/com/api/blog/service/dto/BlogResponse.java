@@ -4,15 +4,6 @@ import java.time.LocalDateTime;
 
 import com.api.blog.service.model.Blog;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class BlogResponse {
 
     private Long id;

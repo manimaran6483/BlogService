@@ -11,17 +11,8 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 @Entity
 @Table(name = "blog")
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class Blog {
 
 	@Id

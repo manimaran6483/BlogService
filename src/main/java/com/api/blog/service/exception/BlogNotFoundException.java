@@ -1,12 +1,10 @@
 package com.api.blog.service.exception;
 
-import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 /**
  * Custom exception for blog not found scenarios
  */
-@Getter
 public class BlogNotFoundException extends RuntimeException {
     
 	private static final long serialVersionUID = 1L;
@@ -15,5 +13,9 @@ public class BlogNotFoundException extends RuntimeException {
 
     public BlogNotFoundException(String message) {
         super(message);
+    }
+
+    public HttpStatus getStatus() {
+        return status;
     }
 }

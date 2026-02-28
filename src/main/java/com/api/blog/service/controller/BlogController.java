@@ -26,8 +26,6 @@ import com.api.blog.service.dto.BlogRequest;
 import com.api.blog.service.dto.BlogResponse;
 import com.api.blog.service.services.BlogService;
 
-import lombok.RequiredArgsConstructor;
-
 /**
  * @author Manimaran
  *
@@ -35,7 +33,6 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/v1.0/blogsite")
-@RequiredArgsConstructor
 public class BlogController {
 
 	@Autowired
